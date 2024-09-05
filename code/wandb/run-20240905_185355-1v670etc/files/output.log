@@ -1,0 +1,15 @@
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Attempted to change value of key "batch_size" from None to 16
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m If you really want to do this, pass allow_val_change=True to config.update()
+Traceback (most recent call last):
+  File "/home/RadChest/code/main.py", line 70, in <module>
+    wandb.config.update(config)
+  File "/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 184, in update
+    sanitized = self._update(d, allow_val_change)
+  File "/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 177, in _update
+    sanitized = self._sanitize_dict(
+  File "/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 264, in _sanitize_dict
+    k, v = self._sanitize(k, v, allow_val_change)
+  File "/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 285, in _sanitize
+    raise config_util.ConfigError(
+wandb.sdk.lib.config_util.ConfigError: Attempted to change value of key "batch_size" from None to 16
+If you really want to do this, pass allow_val_change=True to config.update()

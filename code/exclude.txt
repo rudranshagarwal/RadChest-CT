@@ -1,0 +1,16 @@
+/scratch/features/train/set22/trn24016.pth
+/scratch/features/train/set12/trn12411.pth
+/scratch/features/train/set9/trn09320.pth
+/scratch/features/train/set18/trn19397.pth
+/scratch/features/train/set7/trn07778.pth
+/scratch/features/train/set14/trn15124.pth
+/scratch/features/train/set14/trn15109.pth
+/scratch/features/train/set10/trn10310.pth
+/scratch/features/train/set13/trn14334.pth
+/scratch/features/test/set4/tst35252.pth
+/scratch/features/test/set1/tst29356.pth
+/scratch/features/test/set3/tst34126.pth
+/scratch/features/val/set4/val26104.pth
+/scratch/features/val/set10/val27375.pth
+/scratch/features/val/set9/val27097.pth
+/scratch/features/val/set2/val25658.pth

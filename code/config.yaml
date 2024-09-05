@@ -1,0 +1,47 @@
+project_name: 'RadChest'
+
+
+dataset:
+  train_images: '/home/RadChest/train'
+  train_labels: '/home/RadChest/imgtrain_Abnormality_and_Location_Labels.csv'
+  train_features: '/scratch/features/train'
+  train_slic: '/home/RadChest/slic/train'
+  train_lungmask: '/home/RadChest/lungmask/train'
+  train_centroids: '/scratch/centroids/train'
+
+  val_images: '/home/RadChest/val'
+  val_labels: '/home/RadChest/imgvalid_Abnormality_and_Location_Labels.csv'
+  val_features: '/scratch/features/val'
+  val_slic: '/scratch/val'
+  val_lungmask: '/home/RadChest/lungmask/val'
+  val_centroids: '/scratch/centroids/val'
+
+  test_images: '/home/RadChest/test'
+  test_labels: '/home/RadChest/imgtest_Abnormality_and_Location_Labels.csv'
+  test_features: '/scratch/features/test'
+  test_slic: '/home/RadChest/slic/test'
+  test_lungmask: '/home/RadChest/lungmask/test'
+  test_centroids: '/scratch/centroids/test'
+
+seed: 42
+
+init_lr: 2e-5
+n_epochs: 10
+batch_size: 16
+num_workers: 20
+fold: 1
+
+save_dir: '/scratch/RadChest/checkpoints/'
+
+labels: 'labels.txt'
+exclude: 'exclude.txt'
+
+model: 'GCN'
+models:
+  GCN:
+    k: 5
+
+  GAT:
+    k: 5
+    num_heads: 3
+  

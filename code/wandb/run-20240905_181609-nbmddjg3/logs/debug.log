@@ -1,0 +1,28 @@
+2024-09-05 18:16:09,985 INFO    MainThread:4175851 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-09-05 18:16:09,985 INFO    MainThread:4175851 [wandb_setup.py:_flush():76] Configure stats pid to 4175851
+2024-09-05 18:16:09,985 INFO    MainThread:4175851 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-09-05 18:16:09,985 INFO    MainThread:4175851 [wandb_setup.py:_flush():76] Loading settings from /home/RadChest/code/wandb/settings
+2024-09-05 18:16:09,985 INFO    MainThread:4175851 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-09-05 18:16:09,985 INFO    MainThread:4175851 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-09-05 18:16:09,986 INFO    MainThread:4175851 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'code/main.py', 'program_abspath': '/home/RadChest/code/main.py', 'program': '/home/RadChest/code/main.py'}
+2024-09-05 18:16:09,986 INFO    MainThread:4175851 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-09-05 18:16:09,986 INFO    MainThread:4175851 [wandb_init.py:_log_setup():521] Logging user logs to /home/RadChest/code/wandb/run-20240905_181609-nbmddjg3/logs/debug.log
+2024-09-05 18:16:09,986 INFO    MainThread:4175851 [wandb_init.py:_log_setup():522] Logging internal logs to /home/RadChest/code/wandb/run-20240905_181609-nbmddjg3/logs/debug-internal.log
+2024-09-05 18:16:09,986 INFO    MainThread:4175851 [wandb_init.py:init():561] calling init triggers
+2024-09-05 18:16:09,986 INFO    MainThread:4175851 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'project_name': 'RadChest', 'dataset': {'train_images': '/home/RadChest/train', 'train_labels': 'imgtrain_Abnormality_and_Location_Labels.csv', 'train_features': '/scratch/features/train', 'train_slic': '/home/RadChest/slic/train', 'train_lungmask': '/home/RadChest/lungmask/train', 'train_centroid': '/scratch/centroids/train', 'val_images': '/home/RadChest/val', 'val_labels': 'imgvalid_Abnormality_and_Location_Labels.csv', 'val_features': '/scratch/features/val', 'val_slic': '/scratch/val', 'val_lungmask': '/home/RadChest/lungmask/val', 'val_centroid': '/scratch/centroids/val', 'test_images': '/home/RadChest/test', 'test_labels': 'imgtest_Abnormality_and_Location_Labels.csv', 'test_features': '/scratch/features/test', 'test_slic': '/home/RadChest/slic/test', 'test_lungmask': '/home/RadChest/lungmask/test', 'test_centroid': '/scratch/centroids/test'}, 'seed': 42, 'init_lr': 2e-05, 'n_epochs': 10, 'batch_size': 16, 'num_workers': 20, 'fold': 1, 'save_dir': '/scratch/RadChest/checkpoints/', 'labels': 'labels.txt', 'exclude': 'exclude.txt', 'model': {'name': 'GCN', 'k': 5}}
+2024-09-05 18:16:09,986 INFO    MainThread:4175851 [wandb_init.py:init():611] starting backend
+2024-09-05 18:16:09,986 INFO    MainThread:4175851 [wandb_init.py:init():615] setting up manager
+2024-09-05 18:16:09,990 INFO    MainThread:4175851 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-09-05 18:16:09,992 INFO    MainThread:4175851 [wandb_init.py:init():623] backend started and connected
+2024-09-05 18:16:10,000 INFO    MainThread:4175851 [wandb_init.py:init():715] updated telemetry
+2024-09-05 18:16:10,006 INFO    MainThread:4175851 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-09-05 18:16:10,630 ERROR   MainThread:4175851 [wandb_init.py:init():774] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 403: Forbidden)
+2024-09-05 18:16:10,811 ERROR   MainThread:4175851 [wandb_init.py:init():1199] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 403: Forbidden)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1181, in init
+    run = wi.init()
+  File "/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 780, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 403: Forbidden)
+2024-09-05 18:16:11,815 WARNING MsgRouterThr:4175851 [router.py:message_loop():77] message_loop has been closed

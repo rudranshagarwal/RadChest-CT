@@ -1,0 +1,17 @@
+nodule
+opacity
+atelectasis
+consolidation
+mass
+pneumothorax
+bandlike_or_linear
+groundglass
+honeycombing
+reticulation
+tree_in_bud
+calcification
+pulmonary_edema
+pneumonia
+cancer
+interstitial_lung_disease
+emphysema

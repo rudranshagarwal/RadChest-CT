@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/RadChest/code/main.py", line 81, in <module>
+    main(run_name=run_name)
+  File "/home/RadChest/code/main.py", line 46, in main
+    model = GCN(len(labels), config["models"]["GAT"]["num_heads"]).to(device)
+TypeError: GCN.__init__() takes 2 positional arguments but 3 were given

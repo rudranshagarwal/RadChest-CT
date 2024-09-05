@@ -1,0 +1,1574 @@
+Train metrics for epoch 0:
+Average Accuracy: 0.7264
+Mean Average Precision (MAP): 0.2131
+Area Under ROC Curve (AUC): 0.5033
+Label 1:
+  Accuracy: 0.6158
+  Precision: 0.7569
+  Recall: 0.7232
+Label 2:
+  Accuracy: 0.5122
+  Precision: 0.5489
+  Recall: 0.3932
+Label 3:
+  Accuracy: 0.6866
+  Precision: 0.2041
+  Recall: 0.0147
+Label 4:
+  Accuracy: 0.7981
+  Precision: 0.1498
+  Recall: 0.0997
+Label 5:
+  Accuracy: 0.6605
+  Precision: 0.0741
+  Recall: 0.2604
+Label 6:
+  Accuracy: 0.9367
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8212
+  Precision: 0.1724
+  Recall: 0.0130
+Label 8:
+  Accuracy: 0.6286
+  Precision: 0.3240
+  Recall: 0.1433
+Label 9:
+  Accuracy: 0.5972
+  Precision: 0.0236
+  Recall: 0.3443
+Label 10:
+  Accuracy: 0.8384
+  Precision: 0.0847
+  Recall: 0.0688
+Label 11:
+  Accuracy: 0.9730
+  Precision: 0.4000
+  Recall: 0.0333
+Label 12:
+  Accuracy: 0.7375
+  Precision: 0.2152
+  Recall: 0.1030
+Label 13:
+  Accuracy: 0.8216
+  Precision: 0.1017
+  Recall: 0.2975
+Label 14:
+  Accuracy: 0.9181
+  Precision: 0.0323
+  Recall: 0.0157
+Label 15:
+  Accuracy: 0.5286
+  Precision: 0.3419
+  Recall: 0.4605
+Label 16:
+  Accuracy: 0.5803
+  Precision: 0.1798
+  Recall: 0.3683
+Label 17:
+  Accuracy: 0.6941
+  Precision: 0.2743
+  Recall: 0.0784
+Train Loss: 2.8775
+Val metrics for epoch 0:
+Average Accuracy: 0.6824
+Mean Average Precision (MAP): 0.2115
+Area Under ROC Curve (AUC): 0.4952
+Label 1:
+  Accuracy: 0.5971
+  Precision: 0.7710
+  Recall: 0.6802
+Label 2:
+  Accuracy: 0.4714
+  Precision: 0.5046
+  Recall: 0.1165
+Label 3:
+  Accuracy: 0.6891
+  Precision: 0.2400
+  Recall: 0.0478
+Label 4:
+  Accuracy: 0.4747
+  Precision: 0.1437
+  Recall: 0.5476
+Label 5:
+  Accuracy: 0.7138
+  Precision: 0.0694
+  Recall: 0.2174
+Label 6:
+  Accuracy: 0.9675
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8227
+  Precision: 0.0000
+  Recall: 0.0000
+Label 8:
+  Accuracy: 0.6734
+  Precision: 0.3333
+  Recall: 0.0139
+Label 9:
+  Accuracy: 0.5892
+  Precision: 0.0309
+  Recall: 0.3438
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6655
+  Precision: 0.2205
+  Recall: 0.2275
+Label 13:
+  Accuracy: 0.5657
+  Precision: 0.0289
+  Recall: 0.3793
+Label 14:
+  Accuracy: 0.9304
+  Precision: 0.0588
+  Recall: 0.0213
+Label 15:
+  Accuracy: 0.5600
+  Precision: 0.4152
+  Recall: 0.1956
+Label 16:
+  Accuracy: 0.3569
+  Precision: 0.1382
+  Recall: 0.6641
+Label 17:
+  Accuracy: 0.6465
+  Precision: 0.2771
+  Recall: 0.1909
+Val Loss: 1.2816
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 1:
+Average Accuracy: 0.8006
+Mean Average Precision (MAP): 0.2153
+Area Under ROC Curve (AUC): 0.5091
+Label 1:
+  Accuracy: 0.7273
+  Precision: 0.7647
+  Recall: 0.9226
+Label 2:
+  Accuracy: 0.5104
+  Precision: 0.5459
+  Recall: 0.3966
+Label 3:
+  Accuracy: 0.6870
+  Precision: 0.4239
+  Recall: 0.1149
+Label 4:
+  Accuracy: 0.8415
+  Precision: 0.1690
+  Recall: 0.0386
+Label 5:
+  Accuracy: 0.8982
+  Precision: 0.1200
+  Recall: 0.0312
+Label 6:
+  Accuracy: 0.9504
+  Precision: 0.0455
+  Recall: 0.0109
+Label 7:
+  Accuracy: 0.8189
+  Precision: 0.1471
+  Recall: 0.0130
+Label 8:
+  Accuracy: 0.6361
+  Precision: 0.3563
+  Recall: 0.1639
+Label 9:
+  Accuracy: 0.9628
+  Precision: 0.0741
+  Recall: 0.0328
+Label 10:
+  Accuracy: 0.8986
+  Precision: 0.1333
+  Recall: 0.0092
+Label 11:
+  Accuracy: 0.9721
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7428
+  Precision: 0.2222
+  Recall: 0.0987
+Label 13:
+  Accuracy: 0.9420
+  Precision: 0.3438
+  Recall: 0.0909
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6109
+  Precision: 0.3664
+  Recall: 0.2423
+Label 16:
+  Accuracy: 0.7831
+  Precision: 0.1875
+  Recall: 0.0585
+Label 17:
+  Accuracy: 0.6844
+  Precision: 0.2488
+  Recall: 0.0817
+Train Loss: 0.5539
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 1:
+Average Accuracy: 0.6741
+Mean Average Precision (MAP): 0.2107
+Area Under ROC Curve (AUC): 0.4934
+Label 1:
+  Accuracy: 0.5612
+  Precision: 0.7628
+  Recall: 0.6265
+Label 2:
+  Accuracy: 0.4703
+  Precision: 0.5000
+  Recall: 0.1208
+Label 3:
+  Accuracy: 0.6779
+  Precision: 0.2750
+  Recall: 0.0876
+Label 4:
+  Accuracy: 0.4949
+  Precision: 0.1416
+  Recall: 0.5079
+Label 5:
+  Accuracy: 0.6352
+  Precision: 0.0817
+  Recall: 0.3623
+Label 6:
+  Accuracy: 0.9618
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8159
+  Precision: 0.1250
+  Recall: 0.0063
+Label 8:
+  Accuracy: 0.6622
+  Precision: 0.2941
+  Recall: 0.0348
+Label 9:
+  Accuracy: 0.6195
+  Precision: 0.0277
+  Recall: 0.2812
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6655
+  Precision: 0.2205
+  Recall: 0.2275
+Label 13:
+  Accuracy: 0.5589
+  Precision: 0.0309
+  Recall: 0.4138
+Label 14:
+  Accuracy: 0.9136
+  Precision: 0.0588
+  Recall: 0.0426
+Label 15:
+  Accuracy: 0.5544
+  Precision: 0.3988
+  Recall: 0.1846
+Label 16:
+  Accuracy: 0.3535
+  Precision: 0.1340
+  Recall: 0.6406
+Label 17:
+  Accuracy: 0.6375
+  Precision: 0.2500
+  Recall: 0.1701
+Val Loss: 1.2042
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 2:
+Average Accuracy: 0.8012
+Mean Average Precision (MAP): 0.2133
+Area Under ROC Curve (AUC): 0.5051
+Label 1:
+  Accuracy: 0.7127
+  Precision: 0.7586
+  Recall: 0.9085
+Label 2:
+  Accuracy: 0.5210
+  Precision: 0.5521
+  Recall: 0.4608
+Label 3:
+  Accuracy: 0.6773
+  Precision: 0.3656
+  Recall: 0.1001
+Label 4:
+  Accuracy: 0.8486
+  Precision: 0.1961
+  Recall: 0.0322
+Label 5:
+  Accuracy: 0.9097
+  Precision: 0.0714
+  Recall: 0.0052
+Label 6:
+  Accuracy: 0.9571
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8163
+  Precision: 0.1591
+  Recall: 0.0182
+Label 8:
+  Accuracy: 0.6264
+  Precision: 0.2993
+  Recall: 0.1212
+Label 9:
+  Accuracy: 0.9717
+  Precision: 0.0000
+  Recall: 0.0000
+Label 10:
+  Accuracy: 0.9017
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9734
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7685
+  Precision: 0.2385
+  Recall: 0.0558
+Label 13:
+  Accuracy: 0.9363
+  Precision: 0.2195
+  Recall: 0.0744
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6029
+  Precision: 0.3476
+  Recall: 0.2289
+Label 16:
+  Accuracy: 0.7689
+  Precision: 0.1500
+  Recall: 0.0585
+Label 17:
+  Accuracy: 0.6839
+  Precision: 0.3068
+  Recall: 0.1324
+Train Loss: 0.4957
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 2:
+Average Accuracy: 0.6758
+Mean Average Precision (MAP): 0.2108
+Area Under ROC Curve (AUC): 0.4929
+Label 1:
+  Accuracy: 0.5769
+  Precision: 0.7631
+  Recall: 0.6555
+Label 2:
+  Accuracy: 0.4725
+  Precision: 0.5091
+  Recall: 0.1186
+Label 3:
+  Accuracy: 0.6723
+  Precision: 0.2697
+  Recall: 0.0956
+Label 4:
+  Accuracy: 0.4905
+  Precision: 0.1466
+  Recall: 0.5397
+Label 5:
+  Accuracy: 0.6532
+  Precision: 0.0833
+  Recall: 0.3478
+Label 6:
+  Accuracy: 0.9742
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.7957
+  Precision: 0.1842
+  Recall: 0.0443
+Label 8:
+  Accuracy: 0.6723
+  Precision: 0.3913
+  Recall: 0.0314
+Label 9:
+  Accuracy: 0.6263
+  Precision: 0.0282
+  Recall: 0.2812
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6633
+  Precision: 0.2183
+  Recall: 0.2275
+Label 13:
+  Accuracy: 0.5881
+  Precision: 0.0253
+  Recall: 0.3103
+Label 14:
+  Accuracy: 0.8889
+  Precision: 0.0667
+  Recall: 0.0851
+Label 15:
+  Accuracy: 0.5511
+  Precision: 0.3806
+  Recall: 0.1625
+Label 16:
+  Accuracy: 0.3502
+  Precision: 0.1321
+  Recall: 0.6328
+Label 17:
+  Accuracy: 0.6364
+  Precision: 0.2485
+  Recall: 0.1701
+Val Loss: 1.1567
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 3:
+Average Accuracy: 0.8087
+Mean Average Precision (MAP): 0.2142
+Area Under ROC Curve (AUC): 0.5062
+Label 1:
+  Accuracy: 0.7357
+  Precision: 0.7603
+  Recall: 0.9490
+Label 2:
+  Accuracy: 0.5232
+  Precision: 0.5465
+  Recall: 0.5359
+Label 3:
+  Accuracy: 0.6817
+  Precision: 0.3810
+  Recall: 0.0943
+Label 4:
+  Accuracy: 0.8561
+  Precision: 0.2667
+  Recall: 0.0257
+Label 5:
+  Accuracy: 0.9128
+  Precision: 0.0000
+  Recall: 0.0000
+Label 6:
+  Accuracy: 0.9593
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8216
+  Precision: 0.2500
+  Recall: 0.0234
+Label 8:
+  Accuracy: 0.6397
+  Precision: 0.3358
+  Recall: 0.1240
+Label 9:
+  Accuracy: 0.9717
+  Precision: 0.0000
+  Recall: 0.0000
+Label 10:
+  Accuracy: 0.9022
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9734
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7694
+  Precision: 0.2330
+  Recall: 0.0515
+Label 13:
+  Accuracy: 0.9438
+  Precision: 0.3636
+  Recall: 0.0661
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6237
+  Precision: 0.3266
+  Recall: 0.1299
+Label 16:
+  Accuracy: 0.8017
+  Precision: 0.2031
+  Recall: 0.0317
+Label 17:
+  Accuracy: 0.6884
+  Precision: 0.2982
+  Recall: 0.1111
+Train Loss: 0.4606
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 3:
+Average Accuracy: 0.6803
+Mean Average Precision (MAP): 0.2110
+Area Under ROC Curve (AUC): 0.4916
+Label 1:
+  Accuracy: 0.5724
+  Precision: 0.7615
+  Recall: 0.6497
+Label 2:
+  Accuracy: 0.4736
+  Precision: 0.5135
+  Recall: 0.1208
+Label 3:
+  Accuracy: 0.6734
+  Precision: 0.2917
+  Recall: 0.1116
+Label 4:
+  Accuracy: 0.4815
+  Precision: 0.1441
+  Recall: 0.5397
+Label 5:
+  Accuracy: 0.6768
+  Precision: 0.0772
+  Recall: 0.2899
+Label 6:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8081
+  Precision: 0.1176
+  Recall: 0.0127
+Label 8:
+  Accuracy: 0.6667
+  Precision: 0.3333
+  Recall: 0.0348
+Label 9:
+  Accuracy: 0.6431
+  Precision: 0.0265
+  Recall: 0.2500
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6644
+  Precision: 0.2194
+  Recall: 0.2275
+Label 13:
+  Accuracy: 0.6195
+  Precision: 0.0216
+  Recall: 0.2414
+Label 14:
+  Accuracy: 0.8799
+  Precision: 0.0588
+  Recall: 0.0851
+Label 15:
+  Accuracy: 0.5567
+  Precision: 0.4059
+  Recall: 0.1901
+Label 16:
+  Accuracy: 0.3636
+  Precision: 0.1396
+  Recall: 0.6641
+Label 17:
+  Accuracy: 0.6330
+  Precision: 0.2471
+  Recall: 0.1743
+Val Loss: 1.1405
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 4:
+Average Accuracy: 0.8107
+Mean Average Precision (MAP): 0.2141
+Area Under ROC Curve (AUC): 0.5067
+Label 1:
+  Accuracy: 0.7344
+  Precision: 0.7612
+  Recall: 0.9443
+Label 2:
+  Accuracy: 0.5339
+  Precision: 0.5563
+  Recall: 0.5502
+Label 3:
+  Accuracy: 0.6857
+  Precision: 0.4124
+  Recall: 0.1075
+Label 4:
+  Accuracy: 0.8539
+  Precision: 0.2121
+  Recall: 0.0225
+Label 5:
+  Accuracy: 0.9141
+  Precision: 0.0000
+  Recall: 0.0000
+Label 6:
+  Accuracy: 0.9593
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8194
+  Precision: 0.2326
+  Recall: 0.0260
+Label 8:
+  Accuracy: 0.6344
+  Precision: 0.3239
+  Recall: 0.1267
+Label 9:
+  Accuracy: 0.9721
+  Precision: 0.0000
+  Recall: 0.0000
+Label 10:
+  Accuracy: 0.8991
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9734
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7773
+  Precision: 0.2466
+  Recall: 0.0386
+Label 13:
+  Accuracy: 0.9416
+  Precision: 0.2105
+  Recall: 0.0331
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6251
+  Precision: 0.3596
+  Recall: 0.1714
+Label 16:
+  Accuracy: 0.8083
+  Precision: 0.2326
+  Recall: 0.0244
+Label 17:
+  Accuracy: 0.7056
+  Precision: 0.3172
+  Recall: 0.0752
+Train Loss: 0.4511
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 4:
+Average Accuracy: 0.6797
+Mean Average Precision (MAP): 0.2110
+Area Under ROC Curve (AUC): 0.4917
+Label 1:
+  Accuracy: 0.5578
+  Precision: 0.7588
+  Recall: 0.6265
+Label 2:
+  Accuracy: 0.4691
+  Precision: 0.4956
+  Recall: 0.1186
+Label 3:
+  Accuracy: 0.6734
+  Precision: 0.3000
+  Recall: 0.1195
+Label 4:
+  Accuracy: 0.4837
+  Precision: 0.1492
+  Recall: 0.5635
+Label 5:
+  Accuracy: 0.6588
+  Precision: 0.0758
+  Recall: 0.3043
+Label 6:
+  Accuracy: 0.9719
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8081
+  Precision: 0.1176
+  Recall: 0.0127
+Label 8:
+  Accuracy: 0.6655
+  Precision: 0.3333
+  Recall: 0.0383
+Label 9:
+  Accuracy: 0.6397
+  Precision: 0.0262
+  Recall: 0.2500
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6667
+  Precision: 0.2216
+  Recall: 0.2275
+Label 13:
+  Accuracy: 0.6554
+  Precision: 0.0207
+  Recall: 0.2069
+Label 14:
+  Accuracy: 0.8541
+  Precision: 0.0632
+  Recall: 0.1277
+Label 15:
+  Accuracy: 0.5567
+  Precision: 0.3961
+  Recall: 0.1680
+Label 16:
+  Accuracy: 0.3793
+  Precision: 0.1380
+  Recall: 0.6328
+Label 17:
+  Accuracy: 0.6364
+  Precision: 0.2485
+  Recall: 0.1701
+Val Loss: 1.1337
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 5:
+Average Accuracy: 0.8123
+Mean Average Precision (MAP): 0.2155
+Area Under ROC Curve (AUC): 0.5081
+Label 1:
+  Accuracy: 0.7388
+  Precision: 0.7633
+  Recall: 0.9478
+Label 2:
+  Accuracy: 0.5290
+  Precision: 0.5543
+  Recall: 0.5215
+Label 3:
+  Accuracy: 0.6923
+  Precision: 0.4524
+  Recall: 0.1119
+Label 4:
+  Accuracy: 0.8526
+  Precision: 0.2105
+  Recall: 0.0257
+Label 5:
+  Accuracy: 0.9115
+  Precision: 0.0000
+  Recall: 0.0000
+Label 6:
+  Accuracy: 0.9588
+  Precision: 0.3333
+  Recall: 0.0109
+Label 7:
+  Accuracy: 0.8225
+  Precision: 0.1923
+  Recall: 0.0130
+Label 8:
+  Accuracy: 0.6490
+  Precision: 0.3397
+  Recall: 0.0978
+Label 9:
+  Accuracy: 0.9721
+  Precision: 0.0000
+  Recall: 0.0000
+Label 10:
+  Accuracy: 0.8982
+  Precision: 0.0714
+  Recall: 0.0046
+Label 11:
+  Accuracy: 0.9734
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7840
+  Precision: 0.2381
+  Recall: 0.0215
+Label 13:
+  Accuracy: 0.9433
+  Precision: 0.3704
+  Recall: 0.0826
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6317
+  Precision: 0.3384
+  Recall: 0.1191
+Label 16:
+  Accuracy: 0.8048
+  Precision: 0.1702
+  Recall: 0.0195
+Label 17:
+  Accuracy: 0.7025
+  Precision: 0.3101
+  Recall: 0.0801
+Train Loss: 0.4435
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 5:
+Average Accuracy: 0.6750
+Mean Average Precision (MAP): 0.2115
+Area Under ROC Curve (AUC): 0.4950
+Label 1:
+  Accuracy: 0.5376
+  Precision: 0.7604
+  Recall: 0.5858
+Label 2:
+  Accuracy: 0.4781
+  Precision: 0.5299
+  Recall: 0.1314
+Label 3:
+  Accuracy: 0.6700
+  Precision: 0.3063
+  Recall: 0.1355
+Label 4:
+  Accuracy: 0.4646
+  Precision: 0.1483
+  Recall: 0.5873
+Label 5:
+  Accuracy: 0.6083
+  Precision: 0.0833
+  Recall: 0.4058
+Label 6:
+  Accuracy: 0.9742
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.7856
+  Precision: 0.2105
+  Recall: 0.0759
+Label 8:
+  Accuracy: 0.6655
+  Precision: 0.2800
+  Recall: 0.0244
+Label 9:
+  Accuracy: 0.6835
+  Precision: 0.0265
+  Recall: 0.2188
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6622
+  Precision: 0.2172
+  Recall: 0.2275
+Label 13:
+  Accuracy: 0.6397
+  Precision: 0.0260
+  Recall: 0.2759
+Label 14:
+  Accuracy: 0.8822
+  Precision: 0.0606
+  Recall: 0.0851
+Label 15:
+  Accuracy: 0.5701
+  Precision: 0.4180
+  Recall: 0.1405
+Label 16:
+  Accuracy: 0.3389
+  Precision: 0.1312
+  Recall: 0.6406
+Label 17:
+  Accuracy: 0.6364
+  Precision: 0.2515
+  Recall: 0.1743
+Val Loss: 1.1207
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 6:
+Average Accuracy: 0.8113
+Mean Average Precision (MAP): 0.2163
+Area Under ROC Curve (AUC): 0.5098
+Label 1:
+  Accuracy: 0.7388
+  Precision: 0.7692
+  Recall: 0.9343
+Label 2:
+  Accuracy: 0.5082
+  Precision: 0.5309
+  Recall: 0.5359
+Label 3:
+  Accuracy: 0.6928
+  Precision: 0.4648
+  Recall: 0.1458
+Label 4:
+  Accuracy: 0.8517
+  Precision: 0.2273
+  Recall: 0.0322
+Label 5:
+  Accuracy: 0.9137
+  Precision: 0.0000
+  Recall: 0.0000
+Label 6:
+  Accuracy: 0.9593
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8229
+  Precision: 0.2000
+  Recall: 0.0130
+Label 8:
+  Accuracy: 0.6445
+  Precision: 0.3823
+  Recall: 0.1722
+Label 9:
+  Accuracy: 0.9730
+  Precision: 0.0000
+  Recall: 0.0000
+Label 10:
+  Accuracy: 0.9022
+  Precision: 0.2857
+  Recall: 0.0092
+Label 11:
+  Accuracy: 0.9734
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7893
+  Precision: 0.2222
+  Recall: 0.0086
+Label 13:
+  Accuracy: 0.9451
+  Precision: 0.4118
+  Recall: 0.0579
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6366
+  Precision: 0.3814
+  Recall: 0.1593
+Label 16:
+  Accuracy: 0.7999
+  Precision: 0.1250
+  Recall: 0.0171
+Label 17:
+  Accuracy: 0.6977
+  Precision: 0.3408
+  Recall: 0.1242
+Train Loss: 0.4396
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 6:
+Average Accuracy: 0.6830
+Mean Average Precision (MAP): 0.2112
+Area Under ROC Curve (AUC): 0.4931
+Label 1:
+  Accuracy: 0.5466
+  Precision: 0.7630
+  Recall: 0.5988
+Label 2:
+  Accuracy: 0.4815
+  Precision: 0.5385
+  Recall: 0.1483
+Label 3:
+  Accuracy: 0.6611
+  Precision: 0.2524
+  Recall: 0.1036
+Label 4:
+  Accuracy: 0.4781
+  Precision: 0.1491
+  Recall: 0.5714
+Label 5:
+  Accuracy: 0.6296
+  Precision: 0.0831
+  Recall: 0.3768
+Label 6:
+  Accuracy: 0.9742
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8002
+  Precision: 0.1154
+  Recall: 0.0190
+Label 8:
+  Accuracy: 0.6700
+  Precision: 0.2308
+  Recall: 0.0105
+Label 9:
+  Accuracy: 0.7104
+  Precision: 0.0252
+  Recall: 0.1875
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6622
+  Precision: 0.2172
+  Recall: 0.2275
+Label 13:
+  Accuracy: 0.6644
+  Precision: 0.0213
+  Recall: 0.2069
+Label 14:
+  Accuracy: 0.8833
+  Precision: 0.0615
+  Recall: 0.0851
+Label 15:
+  Accuracy: 0.5589
+  Precision: 0.3944
+  Recall: 0.1543
+Label 16:
+  Accuracy: 0.3793
+  Precision: 0.1368
+  Recall: 0.6250
+Label 17:
+  Accuracy: 0.6341
+  Precision: 0.2571
+  Recall: 0.1867
+Val Loss: 1.0769
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 7:
+Average Accuracy: 0.8124
+Mean Average Precision (MAP): 0.2162
+Area Under ROC Curve (AUC): 0.5087
+Label 1:
+  Accuracy: 0.7247
+  Precision: 0.7582
+  Recall: 0.9326
+Label 2:
+  Accuracy: 0.5432
+  Precision: 0.5637
+  Recall: 0.5713
+Label 3:
+  Accuracy: 0.6999
+  Precision: 0.5035
+  Recall: 0.1060
+Label 4:
+  Accuracy: 0.8513
+  Precision: 0.2549
+  Recall: 0.0418
+Label 5:
+  Accuracy: 0.9146
+  Precision: 0.0000
+  Recall: 0.0000
+Label 6:
+  Accuracy: 0.9579
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8163
+  Precision: 0.2414
+  Recall: 0.0364
+Label 8:
+  Accuracy: 0.6441
+  Precision: 0.3274
+  Recall: 0.1019
+Label 9:
+  Accuracy: 0.9730
+  Precision: 0.0000
+  Recall: 0.0000
+Label 10:
+  Accuracy: 0.9031
+  Precision: 0.3333
+  Recall: 0.0046
+Label 11:
+  Accuracy: 0.9726
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7862
+  Precision: 0.2424
+  Recall: 0.0172
+Label 13:
+  Accuracy: 0.9456
+  Precision: 0.4444
+  Recall: 0.0661
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6171
+  Precision: 0.3275
+  Recall: 0.1499
+Label 16:
+  Accuracy: 0.8127
+  Precision: 0.3488
+  Recall: 0.0366
+Label 17:
+  Accuracy: 0.7052
+  Precision: 0.3043
+  Recall: 0.0686
+Train Loss: 0.4381
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 7:
+Average Accuracy: 0.6813
+Mean Average Precision (MAP): 0.2115
+Area Under ROC Curve (AUC): 0.4919
+Label 1:
+  Accuracy: 0.5567
+  Precision: 0.7630
+  Recall: 0.6177
+Label 2:
+  Accuracy: 0.4826
+  Precision: 0.5420
+  Recall: 0.1504
+Label 3:
+  Accuracy: 0.6734
+  Precision: 0.3113
+  Recall: 0.1315
+Label 4:
+  Accuracy: 0.4781
+  Precision: 0.1476
+  Recall: 0.5635
+Label 5:
+  Accuracy: 0.6386
+  Precision: 0.0879
+  Recall: 0.3913
+Label 6:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8070
+  Precision: 0.1111
+  Recall: 0.0127
+Label 8:
+  Accuracy: 0.6655
+  Precision: 0.2963
+  Recall: 0.0279
+Label 9:
+  Accuracy: 0.7026
+  Precision: 0.0245
+  Recall: 0.1875
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6655
+  Precision: 0.2176
+  Recall: 0.2222
+Label 13:
+  Accuracy: 0.6532
+  Precision: 0.0172
+  Recall: 0.1724
+Label 14:
+  Accuracy: 0.8182
+  Precision: 0.0472
+  Recall: 0.1277
+Label 15:
+  Accuracy: 0.5668
+  Precision: 0.3982
+  Recall: 0.1240
+Label 16:
+  Accuracy: 0.3850
+  Precision: 0.1341
+  Recall: 0.6016
+Label 17:
+  Accuracy: 0.6364
+  Precision: 0.2485
+  Recall: 0.1701
+Val Loss: 1.0593
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 8:
+Average Accuracy: 0.8094
+Mean Average Precision (MAP): 0.2166
+Area Under ROC Curve (AUC): 0.5107
+Label 1:
+  Accuracy: 0.7326
+  Precision: 0.7684
+  Recall: 0.9243
+Label 2:
+  Accuracy: 0.5352
+  Precision: 0.5525
+  Recall: 0.5992
+Label 3:
+  Accuracy: 0.6817
+  Precision: 0.4167
+  Recall: 0.1473
+Label 4:
+  Accuracy: 0.8575
+  Precision: 0.3922
+  Recall: 0.0643
+Label 5:
+  Accuracy: 0.9075
+  Precision: 0.0000
+  Recall: 0.0000
+Label 6:
+  Accuracy: 0.9593
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8185
+  Precision: 0.1795
+  Recall: 0.0182
+Label 8:
+  Accuracy: 0.6436
+  Precision: 0.3487
+  Recall: 0.1253
+Label 9:
+  Accuracy: 0.9730
+  Precision: 0.0000
+  Recall: 0.0000
+Label 10:
+  Accuracy: 0.8977
+  Precision: 0.1579
+  Recall: 0.0138
+Label 11:
+  Accuracy: 0.9734
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7818
+  Precision: 0.3247
+  Recall: 0.0536
+Label 13:
+  Accuracy: 0.9402
+  Precision: 0.2941
+  Recall: 0.0826
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6166
+  Precision: 0.3352
+  Recall: 0.1620
+Label 16:
+  Accuracy: 0.8061
+  Precision: 0.2083
+  Recall: 0.0244
+Label 17:
+  Accuracy: 0.6915
+  Precision: 0.2947
+  Recall: 0.0997
+Train Loss: 0.4576
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 8:
+Average Accuracy: 0.6860
+Mean Average Precision (MAP): 0.2119
+Area Under ROC Curve (AUC): 0.4916
+Label 1:
+  Accuracy: 0.5275
+  Precision: 0.7592
+  Recall: 0.5683
+Label 2:
+  Accuracy: 0.4848
+  Precision: 0.5481
+  Recall: 0.1568
+Label 3:
+  Accuracy: 0.6678
+  Precision: 0.3043
+  Recall: 0.1394
+Label 4:
+  Accuracy: 0.4220
+  Precision: 0.1405
+  Recall: 0.6032
+Label 5:
+  Accuracy: 0.7205
+  Precision: 0.0714
+  Recall: 0.2174
+Label 6:
+  Accuracy: 0.9708
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8036
+  Precision: 0.1304
+  Recall: 0.0190
+Label 8:
+  Accuracy: 0.6700
+  Precision: 0.2308
+  Recall: 0.0105
+Label 9:
+  Accuracy: 0.7093
+  Precision: 0.0251
+  Recall: 0.1875
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6667
+  Precision: 0.2216
+  Recall: 0.2275
+Label 13:
+  Accuracy: 0.6588
+  Precision: 0.0175
+  Recall: 0.1724
+Label 14:
+  Accuracy: 0.8788
+  Precision: 0.0580
+  Recall: 0.0851
+Label 15:
+  Accuracy: 0.5937
+  Precision: 0.5059
+  Recall: 0.1185
+Label 16:
+  Accuracy: 0.3659
+  Precision: 0.1364
+  Recall: 0.6406
+Label 17:
+  Accuracy: 0.6442
+  Precision: 0.2595
+  Recall: 0.1701
+Val Loss: 1.0448
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train metrics for epoch 9:
+Average Accuracy: 0.8134
+Mean Average Precision (MAP): 0.2167
+Area Under ROC Curve (AUC): 0.5096
+Label 1:
+  Accuracy: 0.7437
+  Precision: 0.7633
+  Recall: 0.9572
+Label 2:
+  Accuracy: 0.5339
+  Precision: 0.5559
+  Recall: 0.5536
+Label 3:
+  Accuracy: 0.6946
+  Precision: 0.4709
+  Recall: 0.1311
+Label 4:
+  Accuracy: 0.8442
+  Precision: 0.2029
+  Recall: 0.0450
+Label 5:
+  Accuracy: 0.9150
+  Precision: 0.0000
+  Recall: 0.0000
+Label 6:
+  Accuracy: 0.9593
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.8145
+  Precision: 0.1852
+  Recall: 0.0260
+Label 8:
+  Accuracy: 0.6361
+  Precision: 0.3322
+  Recall: 0.1309
+Label 9:
+  Accuracy: 0.9726
+  Precision: 0.0000
+  Recall: 0.0000
+Label 10:
+  Accuracy: 0.9022
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9717
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7888
+  Precision: 0.3103
+  Recall: 0.0193
+Label 13:
+  Accuracy: 0.9460
+  Precision: 0.4737
+  Recall: 0.0744
+Label 14:
+  Accuracy: 0.9438
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.6498
+  Precision: 0.4083
+  Recall: 0.1312
+Label 16:
+  Accuracy: 0.8052
+  Precision: 0.1429
+  Recall: 0.0146
+Label 17:
+  Accuracy: 0.7069
+  Precision: 0.3214
+  Recall: 0.0735
+Train Loss: 0.4384
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Val metrics for epoch 9:
+Average Accuracy: 0.6881
+Mean Average Precision (MAP): 0.2119
+Area Under ROC Curve (AUC): 0.4944
+Label 1:
+  Accuracy: 0.4949
+  Precision: 0.7554
+  Recall: 0.5116
+Label 2:
+  Accuracy: 0.4848
+  Precision: 0.5481
+  Recall: 0.1568
+Label 3:
+  Accuracy: 0.6655
+  Precision: 0.2991
+  Recall: 0.1394
+Label 4:
+  Accuracy: 0.4759
+  Precision: 0.1455
+  Recall: 0.5556
+Label 5:
+  Accuracy: 0.6846
+  Precision: 0.0760
+  Recall: 0.2754
+Label 6:
+  Accuracy: 0.9742
+  Precision: 0.0000
+  Recall: 0.0000
+Label 7:
+  Accuracy: 0.7957
+  Precision: 0.1471
+  Recall: 0.0316
+Label 8:
+  Accuracy: 0.6633
+  Precision: 0.2174
+  Recall: 0.0174
+Label 9:
+  Accuracy: 0.7598
+  Precision: 0.0309
+  Recall: 0.1875
+Label 10:
+  Accuracy: 0.9024
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9753
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.6655
+  Precision: 0.2176
+  Recall: 0.2222
+Label 13:
+  Accuracy: 0.6521
+  Precision: 0.0205
+  Recall: 0.2069
+Label 14:
+  Accuracy: 0.8799
+  Precision: 0.0588
+  Recall: 0.0851
+Label 15:
+  Accuracy: 0.5926
+  Precision: 0.5000
+  Recall: 0.1047
+Label 16:
+  Accuracy: 0.3872
+  Precision: 0.1372
+  Recall: 0.6172
+Label 17:
+  Accuracy: 0.6431
+  Precision: 0.2579
+  Recall: 0.1701
+Val Loss: 0.9957
+Loaded best checkpoint from epoch 9
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Test metrics:
+Average Accuracy: 0.6146
+Mean Average Precision (MAP): 0.2168
+Area Under ROC Curve (AUC): 0.4978
+Label 1:
+  Accuracy: 0.2898
+  Precision: 0.8286
+  Recall: 0.1062
+Label 2:
+  Accuracy: 0.5028
+  Precision: 0.5338
+  Recall: 0.4270
+Label 3:
+  Accuracy: 0.5938
+  Precision: 0.3295
+  Recall: 0.2566
+Label 4:
+  Accuracy: 0.6080
+  Precision: 0.1382
+  Recall: 0.3469
+Label 5:
+  Accuracy: 0.6506
+  Precision: 0.1111
+  Recall: 0.4062
+Label 6:
+  Accuracy: 0.7841
+  Precision: 0.0526
+  Recall: 0.5000
+Label 7:
+  Accuracy: 0.7585
+  Precision: 0.0857
+  Recall: 0.0536
+Label 8:
+  Accuracy: 0.6591
+  Precision: 1.0000
+  Recall: 0.0083
+Label 9:
+  Accuracy: 0.1960
+  Precision: 0.0211
+  Recall: 0.6000
+Label 10:
+  Accuracy: 0.9261
+  Precision: 0.0000
+  Recall: 0.0000
+Label 11:
+  Accuracy: 0.9773
+  Precision: 0.0000
+  Recall: 0.0000
+Label 12:
+  Accuracy: 0.7841
+  Precision: 0.0000
+  Recall: 0.0000
+Label 13:
+  Accuracy: 0.2784
+  Precision: 0.0420
+  Recall: 0.7857
+Label 14:
+  Accuracy: 0.7273
+  Precision: 0.0000
+  Recall: 0.0000
+Label 15:
+  Accuracy: 0.4574
+  Precision: 0.3793
+  Recall: 0.7734
+Label 16:
+  Accuracy: 0.5511
+  Precision: 0.1591
+  Recall: 0.3088
+Label 17:
+  Accuracy: 0.7045
+  Precision: 0.0000
+  Recall: 0.0000
+Test Loss: 1.1393
+/root/miniconda3/envs/pytorch2/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))

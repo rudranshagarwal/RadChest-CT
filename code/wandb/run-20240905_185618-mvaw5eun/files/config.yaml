@@ -1,0 +1,94 @@
+wandb_version: 1
+
+project_name:
+  desc: null
+  value: RadChest
+dataset:
+  desc: null
+  value:
+    train_images: /home/RadChest/train
+    train_labels: /home/RadChest/imgtrain_Abnormality_and_Location_Labels.csv
+    train_features: /scratch/features/train
+    train_slic: /home/RadChest/slic/train
+    train_lungmask: /home/RadChest/lungmask/train
+    train_centroids: /scratch/centroids/train
+    val_images: /home/RadChest/val
+    val_labels: /home/RadChest/imgvalid_Abnormality_and_Location_Labels.csv
+    val_features: /scratch/features/val
+    val_slic: /scratch/val
+    val_lungmask: /home/RadChest/lungmask/val
+    val_centroids: /scratch/centroids/val
+    test_images: /home/RadChest/test
+    test_labels: /home/RadChest/imgtest_Abnormality_and_Location_Labels.csv
+    test_features: /scratch/features/test
+    test_slic: /home/RadChest/slic/test
+    test_lungmask: /home/RadChest/lungmask/test
+    test_centroids: /scratch/centroids/test
+seed:
+  desc: null
+  value: 42
+init_lr:
+  desc: null
+  value: 2.0e-05
+n_epochs:
+  desc: null
+  value: 10
+batch_size:
+  desc: null
+  value: null
+num_workers:
+  desc: null
+  value: 20
+fold:
+  desc: null
+  value: 1
+save_dir:
+  desc: null
+  value: /scratch/RadChest/checkpoints/
+labels:
+  desc: null
+  value: labels.txt
+exclude:
+  desc: null
+  value: exclude.txt
+model:
+  desc: null
+  value: GCN
+models:
+  desc: null
+  value:
+    GCN:
+      k: 5
+'512':
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.16.6
+    framework: huggingface
+    huggingface_version: 4.29.2
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    start_time: 1725542778.0
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 77
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.13
+      5: 0.16.6
+      6: 4.29.2
+      8:
+      - 2
+      - 5
+      13: linux-x86_64
