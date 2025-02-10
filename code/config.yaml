@@ -8,6 +8,7 @@ dataset:
   train_slic: '/home/RadChest/slic/train'
   train_lungmask: '/home/RadChest/lungmask/train'
   train_centroids: '/scratch/centroids/train'
+  train_connectivity: '/scratch/RadChest/connectivity/train'
 
   val_images: '/home/RadChest/val'
   val_labels: '/home/RadChest/imgvalid_Abnormality_and_Location_Labels.csv'
@@ -15,6 +16,7 @@ dataset:
   val_slic: '/scratch/val'
   val_lungmask: '/home/RadChest/lungmask/val'
   val_centroids: '/scratch/centroids/val'
+  val_connectivity: '/scratch/RadChest/connectivity/val'
 
   test_images: '/home/RadChest/test'
   test_labels: '/home/RadChest/imgtest_Abnormality_and_Location_Labels.csv'
@@ -22,20 +24,23 @@ dataset:
   test_slic: '/home/RadChest/slic/test'
   test_lungmask: '/home/RadChest/lungmask/test'
   test_centroids: '/scratch/centroids/test'
+  test_connectivity: '/scratch/RadChest/connectivity/test'
 
 seed: 42
 
 init_lr: 2e-5
-n_epochs: 10
-batch_size: 16
-num_workers: 20
+n_epochs: 100
+batch_size: 64
+num_workers: 30
 fold: 1
+connectivity: 'all'
 
 save_dir: '/scratch/RadChest/checkpoints/'
 
 labels: 'labels.txt'
 exclude: 'exclude.txt'
 
+beta: 0.99
 model: 'GCN'
 models:
   GCN:
@@ -45,3 +50,33 @@ models:
     k: 5
     num_heads: 3
   
+  GraphTransformer:
+    k: 5
+    num_heads: 3
+  
+  GraphTransformerPE:
+    k: 5
+    num_heads: 3
+
+  GATGT:
+    k: 5
+    num_heads: 3
+
+  GraphTransformerEdge:
+    k: 5
+    num_heads: 3
+    edge_dim: 64
+  
+  GraphTransformerHierarchy:
+    k: 5
+    num_heads: 3
+
+  CTNet:
+    train_features: '/scratch/featuresct/train'
+    val_features: '/scratch/featuresct/val'
+    test_features: '/scratch/featuresct/test'
+
+  CTNetNoConv:
+    train_features: '/scratch/featuresct/train'
+    val_features: '/scratch/featuresct/val'
+    test_features: '/scratch/featuresct/test'
